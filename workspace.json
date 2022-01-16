@@ -1,4 +1,10 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "host": "apps/host",
+    "host-e2e": "apps/host-e2e",
+    "mfe1": "apps/mfe1",
+    "mfe1-e2e": "apps/mfe1-e2e",
+    "shared-data-access-user": "libs/shared/data-access-user"
+  }
 }
