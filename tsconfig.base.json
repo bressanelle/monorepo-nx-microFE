@@ -17,7 +17,10 @@
     "paths": {
       "@frontend/shared/data-access-user": [
         "libs/shared/data-access-user/src/index.ts"
-      ]
+      ],
+      "@frontend/ui-kit": ["dist/libs/ui-kit"],
+      "@frontend/ui-kit-angular": ["libs/ui-kit-angular/src/index.ts"],
+      "@frontend/ui-kit/loader": ["dist/libs/ui-kit/loader"]
     }
   },
   "exclude": ["node_modules", "tmp"]

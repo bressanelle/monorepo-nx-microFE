@@ -5,6 +5,8 @@
     "host-e2e": "apps/host-e2e",
     "mfe1": "apps/mfe1",
     "mfe1-e2e": "apps/mfe1-e2e",
-    "shared-data-access-user": "libs/shared/data-access-user"
+    "shared-data-access-user": "libs/shared/data-access-user",
+    "ui-kit": "libs/ui-kit",
+    "ui-kit-angular": "libs/ui-kit-angular"
   }
 }

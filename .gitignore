@@ -39,3 +39,4 @@ testem.log
 Thumbs.db
 
 .angular
+libs/ui-kit-angular/**/generated

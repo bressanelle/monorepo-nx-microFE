@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/ui-kit-angular",
+  "sourceRoot": "libs/ui-kit-angular/src",
+  "prefix": "frontend",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ui-kit-angular"],
+      "options": {
+        "jestConfig": "libs/ui-kit-angular/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ui-kit-angular/src/**/*.ts",
+          "libs/ui-kit-angular/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
