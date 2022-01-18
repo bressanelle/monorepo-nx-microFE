@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mfe1';
+  firstName = '';
+  lastName = '';
+
+  constructor() {
+    setInterval(() => {
+      this.firstName = `${this.firstName}a`;
+      this.lastName = `${this.firstName}b`;
+    }, 3000);
+  }
 }

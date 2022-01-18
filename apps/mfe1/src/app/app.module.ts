@@ -10,7 +10,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { UiKitAngularModule } from '@frontend/ui-kit-angular';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { UiKitAngularModule } from '@frontend/ui-kit-angular';
     RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
   ],
   providers: [],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
